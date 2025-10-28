@@ -16,9 +16,12 @@ pip install -r requirements.txt
 python run.py <dataset_file_path> [options]
 
 ### Examples
+```bash
 python run.py datasets --iterations 7 --min_score_to_reach 0.5
+```
+```bash
 python run.py datasets/d01_estonia-passenger-list.csv --iterations 7 --min_score_to_reach 0.5
-
+```
 ## Input format
 
 - Dataset: CSV file with ; (semicolon) separator.
@@ -47,9 +50,11 @@ All generated files and logs are stored in the folder specified by --output_fold
 
 ## Convergence criteria test
 
-python new_imputation_method.py datasets \
+```bash
+python score_test.py datasets \
   --iterations 1 2 3 4 5 6 7 \
   --min_score_to_reach 0.1 0.2 0.3 0.4 0.5 0.6 
+```
 
 This command executes TRIARD on the all CSV in datasets folder, testing all combinations of:
 
