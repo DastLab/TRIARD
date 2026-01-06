@@ -77,5 +77,31 @@ This command executes TRIARD on the all CSV in datasets folder, testing all comb
 | `--prevent_use_previous_results_at_each_step` | bool, default=`False`                            | If `True`, disables reuse of previously found dependencies during tuning. |
 | `--missing_percentage_generator`              | float, default=`1`                               | Percentage of missing values artificially injected for evaluation.        |
 
+## Dataset
+
+This repository includes a collection of publicly available datasets used to evaluate TRIARD on heterogeneous (see "all_dataset" folder of this repository), real-world data scenarios with varying levels of incompleteness and attribute semantics.
+
+| ID  | File name                              | Source |
+| --- | ----------------------------------------- | ------ |
+| d01 | d01_estonia-passenger-list.csv             | https://www.kaggle.com/datasets/christianlillelund/passenger-list-for-the-estonia-ferry-disaster |
+| d02 | d02_ecommerce_dataset_updated.csv          | https://www.kaggle.com/datasets/steve1215rogg/e-commerce-dataset |
+| d03 | d03_social_media_engagement1.csv           | https://www.kaggle.com/datasets/divyaraj2006/social-media-engagement |
+| d04 | d04_cars.csv                               | https://archive.ics.uci.edu/dataset/9/auto+mpg |
+| d05 | d05_titanic.csv                            | https://www.kaggle.com/datasets/shubhamgupta012/titanic-dataset |
+| d06 | d06_police.csv                             | https://gist.github.com/curran/22d56e255b4c98354569 |
+| d07 | d07_consumer_electronics_sales_data.csv    | https://www.kaggle.com/datasets/rabieelkharoua/consumer-electronics-sales-dataset |
+| d08 | d08_Data_Science_Fields_Salary_Categorization.csv | https://www.kaggle.com/datasets/whenamancodes/data-science-fields-salary-categorization |
+| d09 | d09_Boeing_898.csv                         | https://www.kaggle.com/datasets/nurielreuven/boeing-historical-airplane-orders-deliveries |
+| d10 | d10_solar-flare.csv                        | https://archive.ics.uci.edu/dataset/89/solar+flare |
+| d11 | d11_yeast.csv                              | https://archive.ics.uci.edu/dataset/110/yeast |
+| d12 | d12_employee_attrition_data.csv            | https://www.kaggle.com/datasets/mrsimple07/employee-attrition-data-prediction |
+| d13 | d13_weather_classification_data.csv        | https://www.kaggle.com/code/siddharthsehgal/weather-classification |
+| d14 | d14_International_Education_Costs.csv      | https://www.kaggle.com/datasets/shujahbutt/international-education-costs |
+| d15 | d15_placementdata.csv                     | https://www.kaggle.com/datasets/ruchikakumbhar/placement-prediction-dataset |
+| d16 | d16_employee_stress.csv                   | https://www.kaggle.com/datasets/chanchalagorale/employees-stress-level-dataset |
+| d17 | d17_bank_loan.csv                         | https://www.kaggle.com/datasets/nasimetemadi/bank-loan |
+| d18 | d18_online_retail_customer_churn.csv       | https://www.kaggle.com/datasets/hassaneskikri/online-retail-customer-churn-dataset |
+| d19 | d19_cat_breeds_clean.csv                   | https://www.kaggle.com/datasets/joannanplkrk/its-raining-cats |
+| d20 | d20_Dataset-Mental-Disorders.csv           | https://www.kaggle.com/datasets/mdsultanulislamovi/mental-disorders-dataset |
 
 
