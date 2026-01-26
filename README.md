@@ -105,3 +105,18 @@ This repository includes a collection of publicly available datasets used to eva
 | d20 | d20_Dataset-Mental-Disorders.csv           | https://www.kaggle.com/datasets/mdsultanulislamovi/mental-disorders-dataset |
 
 
+## Impact of Missing Rate on TRIARD Performance
+
+This figure reports the behavior of TRIARD under increasing levels of missing value injection. 
+For each dataset, Precision, Recall, F1-score, and execution time are measured while progressively varying the missing rate, 
+in order to assess the robustness and scalability of the approach with respect to different degrees of data incompleteness.
+
+<img src="./img/mr_var.png" alt="Impact of Missing Rate on TRIARD Performance" width="600"/>
+
+
+## Impact of Stopping Criteria on TRIARD Performance
+
+This figure illustrates the behavior of TRIARD under different stopping criteria configurations.
+The analysis assesses the impact of the stopping criteria on execution time and final F1-score.
+
+<img src="./img/score_test.png" alt="Impact of Stopping Criteria on TRIARD Performance" width="600"/>
