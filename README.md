@@ -4,7 +4,7 @@ It integrates a **threshold tuning strategy** that iteratively adjusts similarit
 
 ## ⚙️ Installation
 
-Clone the repository and install the dependencies (Python ≥ 3.10 is recommended):
+Clone the repository and install the dependencies (Python ≥ 3.10 & Java 23 is recommended):
 
 ```bash
 git clone https://github.com/DastLab/TRIARD.git
@@ -12,8 +12,12 @@ cd TRIARD
 pip install -r requirements.txt
 ```
 
-## Usage
+## Run experiments 
 python run.py <dataset_file_path> [options]
+
+## Impute missing values in a CSV dataset
+python impute.py <dataset_file_path> [options]
+
 
 ### Examples
 ```bash
